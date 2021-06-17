@@ -1,3 +1,5 @@
+/* info: https://cssgradient.io/ */
+
 .c-gradient-striped {
     background: repeating-radial-gradient(
         circle at 0 0,
@@ -11,6 +13,11 @@
 }
 
 .c-gradient-ocean {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,212,255,1) 50%, rgba(3,152,216,1) 100%);
+}
+
+.c-gradient-ocean-circle {
     background: rgb(2,212,255);
     background: radial-gradient(circle, rgba(2,212,255,1) 11%, rgba(3,152,216,1) 43%, rgba(18,13,92,1) 100%);
 }
