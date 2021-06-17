@@ -1,0 +1,161 @@
+:root {
+    --dark-bg-color: #0B0E11;
+    --dark-ui-color: #151A21;
+    --dark-red: #FD4D4D;
+}
+
+* {
+    margin: 0;
+}
+
+/* */
+
+.c-intro-title-3 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 80px;
+}
+
+.c-intro-menu-3 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.c-intro-menu-3 > * {
+    color: #333;
+    margin: 70px;
+
+    cursor: pointer;
+}
+.c-intro-menu-3 * {
+    text-decoration: none;
+}
+.c-intro-menu-3 *:hover {
+    text-decoration: underline;
+}
+
+.c-intro-background {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.c-gradient-striped {
+    background: repeating-radial-gradient(
+        circle at 0 0,
+        #ccc,
+        #eee 50px
+    );
+}
+.c-gradient-icecream {
+    background: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+}
+.c-gradient-ocean {
+    background: rgb(2,212,255);
+    background: radial-gradient(circle, rgba(2,212,255,1) 11%, rgba(3,152,216,1) 43%, rgba(18,13,92,1) 100%);
+}
+.c-gradient-party {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.c-font-family-normal {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c-font-family-nice {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.c-font-family-game {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* */
+
+
+
+/* Border Radius */
+
+.c-rounded-r5 {
+    border-radius: 5px;
+}
+.c-rounded-r10 {
+    border-radius: 10px;
+}
+.c-rounded-r15 {
+    border-radius: 15px;
+}
+.c-rounded-r20 {
+    border-radius: 20px;
+}
+.c-rounded-r25 {
+    border-radius: 25px;
+}
+
+
+
+/* Backgroundcolors */
+
+.c-bg-red {
+    background-color: var(--dark-red);
+}
+
+.c-bg {
+    background-color: var(--dark-bg-color);
+}
+
+.c-bg-ui {
+    background-color: var(--dark-ui-color);
+}
+
+.c-white {
+    color: white;
+}
+.c-white-c * {
+    color: white;
+}
+.c-black {
+    color: white;
+}
+.c-black-c * {
+    color: black;
+}
+
+
+
+/* Font color */
+
+.c-font-black {
+    color: black;
+}
+
+.c-font-white {
+    color: white;
+}
+
+.c-font-gray {
+    color: lightgray;
+}
+
+
+
+/* Buttons */
+
+.c-btn:hover {
+    cursor: pointer;
+}
+
+.c-btn-red {
+    background-color: var(--dark-red);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 10px;
+}

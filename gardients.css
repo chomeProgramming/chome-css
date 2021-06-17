@@ -1,0 +1,21 @@
+.c-gradient-striped {
+    background: repeating-radial-gradient(
+        circle at 0 0,
+        #ccc,
+        #eee 50px
+    );
+}
+
+.c-gradient-icecream {
+    background: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+}
+
+.c-gradient-ocean {
+    background: rgb(2,212,255);
+    background: radial-gradient(circle, rgba(2,212,255,1) 11%, rgba(3,152,216,1) 43%, rgba(18,13,92,1) 100%);
+}
+
+.c-gradient-party {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
